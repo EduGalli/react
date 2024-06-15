@@ -44,12 +44,12 @@ const generarOrden = () => {
     addDoc(ordersCollection, order).then(data => {
         setOrderId(data.id);
     });*/
-    const db = getFirestore();
+    /*const db = getFirestore();
     const itemsCollection = collection(db, "items");
     arrayProductos.forEach(item => {
         addDoc(itemsCollection, item);
     })
-    console.log("Proceso de carga de productos completa");
+    console.log("Proceso de carga de productos completa");*/
 }
 
 return (
